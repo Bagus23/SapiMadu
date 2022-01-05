@@ -29,16 +29,16 @@ jobs:
           git config --local user.name "Bagus23"
           git add -A
           
-          arr[0]="chore(bot): 😂 auto commit"
-          arr[1]="chore(bot): 😱 auto commit"
-          arr[2]="chore(bot): 👿 auto commit"
-          arr[3]="chore(bot): 💩 auto commit"
-          arr[4]="chore(bot): 🙏 auto commit"
-          arr[5]="chore(bot): 🙈 auto commit"
-          arr[6]="chore(bot): 🐐 auto commit"
-          arr[7]="chore(bot): 🤖 auto commit"
-          arr[8]="chore(bot): 🟩 auto commit"
-          arr[9]="chore(bot): 👻 auto commit"
+          arr[0]="ALX(bot): 😂 auto commit"
+          arr[1]="ALX(bot): 😱 auto commit"
+          arr[2]="ALX(bot): 👿 auto commit"
+          arr[3]="ALX(bot): 💩 auto commit"
+          arr[4]="ALX(bot): 🙏 auto commit"
+          arr[5]="ALX(bot): 🙈 auto commit"
+          arr[6]="ALX(bot): 🐐 auto commit"
+          arr[7]="ALX(bot): 🤖 auto commit"
+          arr[8]="ALX(bot): 🟩 auto commit"
+          arr[9]="ALX(bot): 👻 auto commit"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
