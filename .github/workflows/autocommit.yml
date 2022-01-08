@@ -4,7 +4,7 @@ on:
 
   push:
     branches:
-      - main
+      - master
       
   schedule:
   - cron: "30 */12 * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
@@ -29,16 +29,16 @@ jobs:
           git config --local user.name "Bagus23"
           git add -A
           
-          arr[0]="ALX(bot): 😂 auto commit"
-          arr[1]="ALX(bot): 😱 auto commit"
-          arr[2]="ALX(bot): 👿 auto commit"
-          arr[3]="ALX(bot): 💩 auto commit"
-          arr[4]="ALX(bot): 🙏 auto commit"
-          arr[5]="ALX(bot): 🙈 auto commit"
-          arr[6]="ALX(bot): 🐐 auto commit"
-          arr[7]="ALX(bot): 🤖 auto commit"
-          arr[8]="ALX(bot): 🟩 auto commit"
-          arr[9]="ALX(bot): 👻 auto commit"
+          arr[0]="ALX: 😂 MK.I"
+          arr[1]="ALX: 😱 MK.II"
+          arr[2]="ALX: 👿 MK.III"
+          arr[3]="ALX: 💩 MK.IV"
+          arr[4]="ALX: 🙏 MK.V"
+          arr[5]="ALX: 🙈 MK.VI"
+          arr[6]="ALX: 🐐 MK.VII"
+          arr[7]="ALX: 🤖 MK.VIII"
+          arr[8]="ALX: 🟩 MK.IX"
+          arr[9]="ALX: 👻 MK.X"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
